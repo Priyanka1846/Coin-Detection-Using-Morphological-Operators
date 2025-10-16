@@ -6,18 +6,27 @@ It takes an image of coins, processes it through various computer vision steps, 
 # Features
 
 •	Read and display an image using OpenCV
+
 •	Convert the image to grayscale
+
 •	Split the image into RGB color channels
+
 •	Perform thresholding to create a binary mask
+
 •	Apply erosion and dilation (morphological operations)
+
 •	Detect blobs (coins) using OpenCV’s SimpleBlobDetector
+
 •	Display the intermediate steps and final results using Matplotlib
 
 # Concepts Used
 
 •	Grayscale conversion: Simplifies image data for processing
+
 •	Thresholding: Converts grayscale image to binary for segmentation
+
 •	Morphological operations: Refine the binary image to remove noise
+
 •	Blob detection: Identify circular coin-like objects based on shape and intensity
 
 # Requirements
@@ -38,8 +47,13 @@ Make sure you update the image filename (e.g. coins.jpg) in the code.
 # Example Output
 
 •	Original image
+
 •	Grayscale image
+
 •	RGB channel split (R, G, B)
+
 •	Thresholded image
+
 •	Eroded and Dilated images
+
 •	Blob detection with coin count
